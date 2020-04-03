@@ -2,10 +2,14 @@
   "name": "word-twiddle",
   "version": "0.0.0",
   "description": "Twiddle Words",
-  "files": ["dist/*"],
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
-    "build": "xcopy /SQIY src\\* dist\\*",
-    "test": "echo \"Error: no test specified\""
+    "build": "webpack -p --mode production --https false",
+    "test": "echo \"Error: no test specified\"",
+    "server": "webpack-dev-server --mode development",
+    "generate-icon": ".\\assets\\generate.cmd"
   },
   "repository": {
     "type": "git",
@@ -19,6 +23,26 @@
   "homepage": "https://github.com/wandyezj/word-twiddle#readme",
   "dependencies": {},
   "devDependencies": {
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "@types/office-js": "^1.0.37",
+    "@babel/core": "^7.6.0",
+    "@babel/polyfill": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@types/office-runtime": "^1.0.8",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "file-loader": "^4.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "office-addin-cli": "^1.0.7",
+    "office-addin-debugging": "^3.0.23",
+    "office-addin-dev-certs": "^1.4.14",
+    "office-addin-lint": "^1.0.19",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^6.1.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
   }
 }
