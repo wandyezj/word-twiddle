@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js app to Azure Web App - simple-website
+name: Build and deploy Node.js app to Azure Web App - word-twiddle
 
 on:
   push:
@@ -29,7 +29,7 @@ jobs:
     - name: 'Deploy to Azure Web App'
       uses: azure/webapps-deploy@v1
       with:
-        app-name: 'simple-website'
+        app-name: 'word-twiddle'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_873c15a3a56c4e32b2372c7104ae3c0c }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_ae93967bc77e4631bdf9b69cc29d9568 }}
         package: .\dist
