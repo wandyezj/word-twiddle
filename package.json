@@ -1,0 +1,19 @@
+{
+  "name": "word-twiddle",
+  "version": "0.0.0",
+  "description": "Twiddle Words",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wandyezj/word-twiddle.git"
+  },
+  "author": "wandyezj",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/wandyezj/word-twiddle/issues"
+  },
+  "homepage": "https://github.com/wandyezj/word-twiddle#readme"
+}
