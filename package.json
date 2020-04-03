@@ -2,8 +2,9 @@
   "name": "word-twiddle",
   "version": "0.0.0",
   "description": "Twiddle Words",
-  "main": "index.js",
+  "files": ["dist/*"],
   "scripts": {
+    "build": "xcopy /SQIY src\\* dist\\*",
     "test": "echo \"Error: no test specified\""
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/wandyezj/word-twiddle/issues"
   },
-  "homepage": "https://github.com/wandyezj/word-twiddle#readme"
+  "homepage": "https://github.com/wandyezj/word-twiddle#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
 }
