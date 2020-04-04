@@ -1,10 +1,9 @@
-import { Highlight } from "./twiddleJson";
 
-export async function executeRuleWordHighlight(highlights: Highlight[]) {
+export async function executeRuleWordHighlight(highlights: [string, string][]) {
     const wordToColor = new Map<string, string>(
         highlights.map((highlight) => [
-            highlight.word.toLowerCase(),
-            highlight.color,
+            highlight[0].toLowerCase(),
+            highlight[1],
         ])
     );
 

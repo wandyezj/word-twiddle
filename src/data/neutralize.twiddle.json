@@ -3,18 +3,12 @@
     "rules": [
         {
             "replaceWords": [
-                {
-                    "from": "he",
-                    "to": "they"
-                },
-                { "from": "she", "to": "they" }
+                ["he", "they"],
+                ["she", "they"]
             ]
         },
         {
-            "highlightWords": [{
-                "word": "they",
-                "color": "yellow"
-            }]
+            "highlightWords": [["they", "yellow"]]
         }
     ]
 }

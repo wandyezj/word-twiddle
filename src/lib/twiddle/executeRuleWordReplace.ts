@@ -1,9 +1,8 @@
 import { isUpperCase } from "../lib/isUpperCase";
 import { isCapitalized } from "../lib/isCapitalized";
 import { capitalize } from "../lib/capitalize";
-import { FromTo } from "./twiddleJson";
 
-export async function executeRuleWordReplace(fromTo: FromTo[]) {
+export async function executeRuleWordReplace(fromTo: [string, string][]) {
     await Word.run(async (context) => {
         const sections = context.document.sections;
         sections.load("body");
@@ -25,17 +24,17 @@ export async function executeRuleWordReplace(fromTo: FromTo[]) {
 /**
  * return the word or the corrected word
  */
-function correctWord(word: string, map: FromTo[]) {
+function correctWord(word: string, map: [string, string][]) {
     // should remove punctuation
 
     // should preserve capitalization and all caps
     const lookupWord = word.toLowerCase();
 
-    const matching = map.find((value) => value.from === lookupWord);
+    const matching = map.find((value) => value[0] === lookupWord);
 
     if (matching) {
         // look up the correct word
-        const correctWord = matching.to;
+        const correctWord = matching[1];
 
         // handle casing
         if (isUpperCase(word)) {
@@ -61,7 +60,7 @@ function isCompositionLetter(letter: string): boolean {
     return isCompositionLetter;
 }
 
-function correctText(text: string, formTo: FromTo[]) {
+function correctText(text: string, formTo: [string, string][]) {
     // look through words while preserving spacing (preserving spacing will be tricky)
 
     // make sure to match case of original word
@@ -82,7 +81,7 @@ function correctText(text: string, formTo: FromTo[]) {
     return trace;
 
     // or should feed words one at a time
-    // individual words break down if it maps to a compund word
+    // individual words break down if it maps to a compound word
     // should trail along snipping spaces and punctuation . ! ?() and reinserting words as appropriate
     //const words = text.split(" ");
     //const correctedWords = words.map((word) => correctWord(word, genderMap));

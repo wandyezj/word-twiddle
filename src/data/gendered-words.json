@@ -1,0 +1,87 @@
+[
+    {
+      "masculine": "he",
+      "feminine": "she",
+      "neutral": "they"
+    },
+    {
+      "masculine": "he's",
+      "feminine": "she's",
+      "neutral": "they're"
+    },
+    {
+      "masculine": "his",
+      "feminine": "her",
+      "neutral": "their"
+    },
+    {
+      "masculine": "his",
+      "feminine": "hers",
+      "neutral": "theirs"
+    },
+    {
+      "masculine": "himself",
+      "feminine": "herself",
+      "neutral": "themself"
+    },
+    {
+      "masculine": "husband",
+      "feminine": "wife",
+      "neutral": "partner"
+    },
+    {
+      "masculine": "brother",
+      "feminine": "sister",
+      "neutral": "sibling"
+    },
+    {
+      "masculine": "brothers",
+      "feminine": "sisters",
+      "neutral": "siblings"
+    },
+    {
+      "masculine": "actor",
+      "feminine": "actress",
+      "neutral": "actor"
+    },
+    {
+      "masculine": "father",
+      "feminine": "mother",
+      "neutral": "parent"
+    },
+    {
+      "masculine": "boy",
+      "feminine": "girl",
+      "neutral": "child"
+    },
+    {
+      "masculine": "businessman",
+      "feminine": "businesswoman",
+      "neutral": "businessperson"
+    },
+    {
+      "masculine": "grandfather",
+      "feminine": "grandmother",
+      "neutral": "grandparent"
+    },
+    {
+      "masculine": "grandfather's",
+      "feminine": "grandmother's",
+      "neutral": "grandparent's"
+    },
+    {
+      "masculine": "man",
+      "feminine": "woman",
+      "neutral": "person"
+    },
+    {
+      "masculine": "mans",
+      "feminine": "womans",
+      "neutral": "peoples"
+    },
+    {
+      "masculine": "mankind",
+      "feminine": "womankind",
+      "neutral": "humankind"
+    }
+]
