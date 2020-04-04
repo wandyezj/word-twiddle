@@ -1,0 +1,20 @@
+{
+    "name": "Neutralize",
+    "rules": [
+        {
+            "replaceWords": [
+                {
+                    "from": "he",
+                    "to": "they"
+                },
+                { "from": "she", "to": "they" }
+            ]
+        },
+        {
+            "highlightWords": [{
+                "word": "they",
+                "color": "yellow"
+            }]
+        }
+    ]
+}

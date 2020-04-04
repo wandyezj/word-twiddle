@@ -9,6 +9,7 @@
     "build": "webpack -p --mode production --https false",
     "test": "echo \"Error: no test specified\"",
     "server": "webpack-dev-server --mode development",
+    "prettier": "./node_modules/.bin/prettier --config .prettierrc.json --write src/**/*.ts",
     "generate-icon": ".\\assets\\generate.cmd"
   },
   "repository": {
@@ -21,7 +22,9 @@
     "url": "https://github.com/wandyezj/word-twiddle/issues"
   },
   "homepage": "https://github.com/wandyezj/word-twiddle#readme",
-  "dependencies": {},
+  "dependencies": {
+
+  },
   "devDependencies": {
     "typescript": "^3.8.3",
     "@types/office-js": "^1.0.37",
@@ -41,6 +44,7 @@
     "ts-loader": "^6.1.0",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.8",
-    "webpack-dev-server": "^3.8.0"
+    "webpack-dev-server": "^3.8.0",
+    "prettier": "^2.0.2"
   }
 }

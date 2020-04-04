@@ -1,0 +1,57 @@
+[
+    { "paragraph": "He walked to the beach in his flip flops.", "comment": "" },
+    { "paragraph": "She ate tasty ramen!", "comment": "" },
+    {
+        "paragraph": "She loved his beautiful pastry.",
+        "comment": "this sentence becomes delightfully ambiguous as to the meaning id adjusted"
+    },
+    { "paragraph": "The businessman closed the deal.", "comment": "" },
+    {
+        "paragraph": "Her engineering skills were the best in the business.",
+        "comment": ""
+    },
+    {
+        "paragraph": "Waffles are the ideal source of nutrition said the lady.",
+        "comment": ""
+    },
+    {
+        "paragraph": "\"Are they now?!\" exclaimed my mother.",
+        "comment": ""
+    },
+    {
+        "paragraph": "Hmm... I think my wife knows better said my father.",
+        "comment": ""
+    },
+    {
+        "paragraph": "The young boy released the balloon and watched it soar into the air.",
+        "comment": "similarly this sentence can become ambiguous"
+    },
+    {
+        "paragraph": "My brothers favorite color is blue.",
+        "comment": "intent also becomes ambiguous"
+    },
+    {
+        "paragraph": "My sister loves to solve math problems; she's weird.",
+        "comment": ""
+    },
+    { "paragraph": "The man absolutely loved his pancakes", "comment": "" },
+    { "paragraph": "My grandfather loves to bake cookies!", "comment": "" },
+    {
+        "paragraph": "My grandmother loves to eat my grandfather's cookies",
+        "comment": "ambiguous since most people have two pairs of grandparents, the assumption is that it is the ones who are coupled that this refers to, but that might not be the case"
+    },
+    {
+        "paragraph": "She was too smart to be an engineer, so she became an independent bum.",
+        "comment": "[bug] does not translate correctly because of these of was should be were"
+    },
+    {
+        "paragraph": "Did you see her today?",
+        "comment": "did you see them today"
+    },
+    { "paragraph": "He ate his cookie.", "comment": "They ate their cookie." },
+    {
+        "paragraph": "Don’t eat Lauren’s pizza; it is hers, and she will get upset.",
+        "comment": ""
+    },
+    { "paragraph": "Diamond", "comment": "" }
+]
