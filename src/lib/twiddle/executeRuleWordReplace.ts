@@ -1,6 +1,10 @@
-import { isUpperCase } from "../lib/isUpperCase";
-import { isCapitalized } from "../lib/isCapitalized";
-import { capitalize } from "../lib/capitalize";
+import { isUpperCase } from "@wandyezj/standard-node";
+import { isCapitalized } from "@wandyezj/standard-node";
+import { capitalize } from "@wandyezj/standard-node";
+
+// var isUpperCase: any = {};
+// var isCapitalized: any = {};
+// var capitalize: any = {};
 
 export async function executeRuleWordReplace(fromTo: [string, string][]) {
     await Word.run(async (context) => {

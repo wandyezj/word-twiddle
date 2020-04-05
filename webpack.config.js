@@ -6,6 +6,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = async (env, options) => {
   const dev = options.mode === "development";
   const config = {
+    node: { global: true, fs: 'empty' }, // some packages have node dependencies even if they are not used )
     devtool: "source-map",
     entry: {
       polyfill: "@babel/polyfill",

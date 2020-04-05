@@ -23,15 +23,16 @@
   },
   "homepage": "https://github.com/wandyezj/word-twiddle#readme",
   "dependencies": {
-
+    "@wandyezj/standard-node": "0.0.6"
   },
   "devDependencies": {
-    "typescript": "^3.8.3",
-    "@types/office-js": "^1.0.37",
-    "@types/office-runtime": "^1.0.8",
+    "node": "^13.12.0",
     "@babel/core": "^7.6.0",
     "@babel/polyfill": "^7.6.0",
     "@babel/preset-env": "^7.6.0",
+    "@types/office-js": "^1.0.37",
+    "@types/office-runtime": "^1.0.8",
+    "@types/node": "^13.11.0",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^5.1.1",
@@ -40,11 +41,12 @@
     "html-webpack-plugin": "^3.2.0",
     "office-addin-cli": "^1.0.7",
     "office-addin-dev-certs": "^1.4.14",
+    "prettier": "^2.0.2",
     "source-map-loader": "^0.2.4",
     "ts-loader": "^6.1.0",
+    "typescript": "^3.8.3",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.8",
-    "webpack-dev-server": "^3.8.0",
-    "prettier": "^2.0.2"
+    "webpack-dev-server": "^3.8.0"
   }
 }
