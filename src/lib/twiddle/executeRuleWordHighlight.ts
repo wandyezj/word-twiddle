@@ -1,4 +1,3 @@
-
 export async function executeRuleWordHighlight(highlights: [string, string][]) {
     const wordToColor = new Map<string, string>(
         highlights.map((highlight) => [
