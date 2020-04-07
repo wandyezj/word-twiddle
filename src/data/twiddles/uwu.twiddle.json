@@ -1,0 +1,17 @@
+{
+    "name": "uwu",
+    "rules": [
+        {
+            "highlight": [["r", "red"], ["l", "lime"], ["ds", "darksalmon"]]
+        },
+        {
+            "replace": [
+                ["r", "w"],
+                ["R", "W"],
+                ["l", "w"],
+                ["L", "W"],
+                ["ds", "dws"]
+            ]
+        }
+    ]
+}

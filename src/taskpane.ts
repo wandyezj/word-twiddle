@@ -1,9 +1,11 @@
 import { reset } from "./lib/buttons/reset";
 import { twiddle } from "./lib/buttons/twiddle";
+import { getTwiddles } from "./lib/twiddle/getTwiddle";
 
 Office.onReady((info) => {
     console.log("Word Twiddle Ready!");
     if (info.host === Office.HostType.Word) {
+        populateTwiddles();
         for (let id of Object.getOwnPropertyNames(idMap)) {
             document.getElementById(id).onclick = async () => {
                 console.log(id);
@@ -12,6 +14,8 @@ Office.onReady((info) => {
         }
     }
 });
+
+
 
 const idMap: { [id: string]: () => Promise<void> } = {
     run,
@@ -36,4 +40,16 @@ export async function run() {
 
         await context.sync();
     });
+}
+
+function populateTwiddles() {
+    const twiddles = getTwiddles();
+
+    const element: HTMLSelectElement = document.getElementById("twiddles") as HTMLSelectElement;
+
+
+    const option = document.createElement('option') as HTMLOptionElement;
+    option.appendChild(document.createTextNode("option name"));
+    element.appendChild(option);
+
 }
