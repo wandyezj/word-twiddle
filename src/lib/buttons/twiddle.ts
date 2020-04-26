@@ -1,10 +1,12 @@
-import * as selectTwiddle from "../../data/twiddles/uwu.twiddle.json";
-import { Twiddle, Rule } from "../twiddle/twiddleJson";
 import { executeRule } from "../twiddle/executeRule";
-
-const currentTwiddle: Twiddle = selectTwiddle as Twiddle;
+import { UI } from "../UI";
+import { getTwiddleByName } from "../twiddle/getTwiddleByName";
 
 export async function twiddle() {
+
+    const selected = UI.selectedTwiddle;
+    const currentTwiddle = getTwiddleByName(selected);
+
     for (let rule of currentTwiddle.rules) {
         await executeRule(rule);
     }
