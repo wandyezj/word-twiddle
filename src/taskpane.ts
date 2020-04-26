@@ -47,9 +47,16 @@ function populateTwiddles() {
 
     const element: HTMLSelectElement = document.getElementById("twiddles") as HTMLSelectElement;
 
+    twiddles.forEach((twiddle) => {
+        const optionName = twiddle.name;
+        console.log(`option name ${optionName}`);
+        const option = document.createElement('option') as HTMLOptionElement;
+        option.appendChild(document.createTextNode(optionName));
+        element.appendChild(option);
+    
+    });
 
-    const option = document.createElement('option') as HTMLOptionElement;
-    option.appendChild(document.createTextNode("option name"));
-    element.appendChild(option);
+
+
 
 }
