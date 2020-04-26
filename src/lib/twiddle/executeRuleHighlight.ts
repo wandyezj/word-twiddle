@@ -1,3 +1,1 @@
-export async function executeRuleHighlight(fromTo: [string, string][]) {
-
-}
+export async function executeRuleHighlight(fromTo: [string, string][]) {}

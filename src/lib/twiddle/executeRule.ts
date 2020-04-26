@@ -10,7 +10,7 @@ export async function executeRule(rule: Rule) {
     const replaceWords = rule.replaceWords;
     const highlightWords = rule.highlightWords;
 
-    if (replace){
+    if (replace) {
         await executeRuleReplace(replace);
     } else if (highlight) {
         await executeRuleHighlight(highlight);
