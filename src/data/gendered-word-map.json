@@ -3,174 +3,140 @@
     "name": "neutralize",
     "wordMap": [
       [
-        [
-          "he",
-          "they"
-        ],
-        [
-          "she",
-          "they"
-        ]
+        "he",
+        "they"
       ],
       [
-        [
-          "he's",
-          "they're"
-        ],
-        [
-          "she's",
-          "they're"
-        ]
+        "she",
+        "they"
       ],
       [
-        [
-          "his",
-          "their"
-        ],
-        [
-          "her",
-          "their"
-        ]
+        "he's",
+        "they're"
       ],
       [
-        [
-          "his",
-          "theirs"
-        ],
-        [
-          "hers",
-          "theirs"
-        ]
+        "she's",
+        "they're"
       ],
       [
-        [
-          "himself",
-          "themself"
-        ],
-        [
-          "herself",
-          "themself"
-        ]
+        "his",
+        "their"
       ],
       [
-        [
-          "husband",
-          "partner"
-        ],
-        [
-          "wife",
-          "partner"
-        ]
+        "her",
+        "their"
       ],
       [
-        [
-          "brother",
-          "sibling"
-        ],
-        [
-          "sister",
-          "sibling"
-        ]
+        "his",
+        "theirs"
       ],
       [
-        [
-          "brothers",
-          "siblings"
-        ],
-        [
-          "sisters",
-          "siblings"
-        ]
+        "hers",
+        "theirs"
       ],
       [
-        [
-          "actor",
-          "actor"
-        ],
-        [
-          "actress",
-          "actor"
-        ]
+        "himself",
+        "themself"
       ],
       [
-        [
-          "father",
-          "parent"
-        ],
-        [
-          "mother",
-          "parent"
-        ]
+        "herself",
+        "themself"
       ],
       [
-        [
-          "boy",
-          "child"
-        ],
-        [
-          "girl",
-          "child"
-        ]
+        "husband",
+        "partner"
       ],
       [
-        [
-          "businessman",
-          "businessperson"
-        ],
-        [
-          "businesswoman",
-          "businessperson"
-        ]
+        "wife",
+        "partner"
       ],
       [
-        [
-          "grandfather",
-          "grandparent"
-        ],
-        [
-          "grandmother",
-          "grandparent"
-        ]
+        "brother",
+        "sibling"
       ],
       [
-        [
-          "grandfather's",
-          "grandparent's"
-        ],
-        [
-          "grandmother's",
-          "grandparent's"
-        ]
+        "sister",
+        "sibling"
       ],
       [
-        [
-          "man",
-          "person"
-        ],
-        [
-          "woman",
-          "person"
-        ]
+        "brothers",
+        "siblings"
       ],
       [
-        [
-          "mans",
-          "peoples"
-        ],
-        [
-          "womans",
-          "peoples"
-        ]
+        "sisters",
+        "siblings"
       ],
       [
-        [
-          "mankind",
-          "humankind"
-        ],
-        [
-          "womankind",
-          "humankind"
-        ]
+        "actor",
+        "actor"
+      ],
+      [
+        "actress",
+        "actor"
+      ],
+      [
+        "father",
+        "parent"
+      ],
+      [
+        "mother",
+        "parent"
+      ],
+      [
+        "boy",
+        "child"
+      ],
+      [
+        "girl",
+        "child"
+      ],
+      [
+        "businessman",
+        "businessperson"
+      ],
+      [
+        "businesswoman",
+        "businessperson"
+      ],
+      [
+        "grandfather",
+        "grandparent"
+      ],
+      [
+        "grandmother",
+        "grandparent"
+      ],
+      [
+        "grandfather's",
+        "grandparent's"
+      ],
+      [
+        "grandmother's",
+        "grandparent's"
+      ],
+      [
+        "man",
+        "person"
+      ],
+      [
+        "woman",
+        "person"
+      ],
+      [
+        "mans",
+        "peoples"
+      ],
+      [
+        "womans",
+        "peoples"
+      ],
+      [
+        "mankind",
+        "humankind"
+      ],
+      [
+        "womankind",
+        "humankind"
       ]
     ]
   },
@@ -178,174 +144,140 @@
     "name": "masculinize",
     "wordMap": [
       [
-        [
-          "they",
-          "he"
-        ],
-        [
-          "she",
-          "he"
-        ]
+        "they",
+        "he"
       ],
       [
-        [
-          "they're",
-          "he's"
-        ],
-        [
-          "she's",
-          "he's"
-        ]
+        "she",
+        "he"
       ],
       [
-        [
-          "their",
-          "his"
-        ],
-        [
-          "her",
-          "his"
-        ]
+        "they're",
+        "he's"
       ],
       [
-        [
-          "theirs",
-          "his"
-        ],
-        [
-          "hers",
-          "his"
-        ]
+        "she's",
+        "he's"
       ],
       [
-        [
-          "themself",
-          "himself"
-        ],
-        [
-          "herself",
-          "himself"
-        ]
+        "their",
+        "his"
       ],
       [
-        [
-          "partner",
-          "husband"
-        ],
-        [
-          "wife",
-          "husband"
-        ]
+        "her",
+        "his"
       ],
       [
-        [
-          "sibling",
-          "brother"
-        ],
-        [
-          "sister",
-          "brother"
-        ]
+        "theirs",
+        "his"
       ],
       [
-        [
-          "siblings",
-          "brothers"
-        ],
-        [
-          "sisters",
-          "brothers"
-        ]
+        "hers",
+        "his"
       ],
       [
-        [
-          "actor",
-          "actor"
-        ],
-        [
-          "actress",
-          "actor"
-        ]
+        "themself",
+        "himself"
       ],
       [
-        [
-          "parent",
-          "father"
-        ],
-        [
-          "mother",
-          "father"
-        ]
+        "herself",
+        "himself"
       ],
       [
-        [
-          "child",
-          "boy"
-        ],
-        [
-          "girl",
-          "boy"
-        ]
+        "partner",
+        "husband"
       ],
       [
-        [
-          "businessperson",
-          "businessman"
-        ],
-        [
-          "businesswoman",
-          "businessman"
-        ]
+        "wife",
+        "husband"
       ],
       [
-        [
-          "grandparent",
-          "grandfather"
-        ],
-        [
-          "grandmother",
-          "grandfather"
-        ]
+        "sibling",
+        "brother"
       ],
       [
-        [
-          "grandparent's",
-          "grandfather's"
-        ],
-        [
-          "grandmother's",
-          "grandfather's"
-        ]
+        "sister",
+        "brother"
       ],
       [
-        [
-          "person",
-          "man"
-        ],
-        [
-          "woman",
-          "man"
-        ]
+        "siblings",
+        "brothers"
       ],
       [
-        [
-          "peoples",
-          "mans"
-        ],
-        [
-          "womans",
-          "mans"
-        ]
+        "sisters",
+        "brothers"
       ],
       [
-        [
-          "humankind",
-          "mankind"
-        ],
-        [
-          "womankind",
-          "mankind"
-        ]
+        "actor",
+        "actor"
+      ],
+      [
+        "actress",
+        "actor"
+      ],
+      [
+        "parent",
+        "father"
+      ],
+      [
+        "mother",
+        "father"
+      ],
+      [
+        "child",
+        "boy"
+      ],
+      [
+        "girl",
+        "boy"
+      ],
+      [
+        "businessperson",
+        "businessman"
+      ],
+      [
+        "businesswoman",
+        "businessman"
+      ],
+      [
+        "grandparent",
+        "grandfather"
+      ],
+      [
+        "grandmother",
+        "grandfather"
+      ],
+      [
+        "grandparent's",
+        "grandfather's"
+      ],
+      [
+        "grandmother's",
+        "grandfather's"
+      ],
+      [
+        "person",
+        "man"
+      ],
+      [
+        "woman",
+        "man"
+      ],
+      [
+        "peoples",
+        "mans"
+      ],
+      [
+        "womans",
+        "mans"
+      ],
+      [
+        "humankind",
+        "mankind"
+      ],
+      [
+        "womankind",
+        "mankind"
       ]
     ]
   },
@@ -353,174 +285,140 @@
     "name": "feminize",
     "wordMap": [
       [
-        [
-          "they",
-          "she"
-        ],
-        [
-          "he",
-          "she"
-        ]
+        "they",
+        "she"
       ],
       [
-        [
-          "they're",
-          "she's"
-        ],
-        [
-          "he's",
-          "she's"
-        ]
+        "he",
+        "she"
       ],
       [
-        [
-          "their",
-          "her"
-        ],
-        [
-          "his",
-          "her"
-        ]
+        "they're",
+        "she's"
       ],
       [
-        [
-          "theirs",
-          "hers"
-        ],
-        [
-          "his",
-          "hers"
-        ]
+        "he's",
+        "she's"
       ],
       [
-        [
-          "themself",
-          "herself"
-        ],
-        [
-          "himself",
-          "herself"
-        ]
+        "their",
+        "her"
       ],
       [
-        [
-          "partner",
-          "wife"
-        ],
-        [
-          "husband",
-          "wife"
-        ]
+        "his",
+        "her"
       ],
       [
-        [
-          "sibling",
-          "sister"
-        ],
-        [
-          "brother",
-          "sister"
-        ]
+        "theirs",
+        "hers"
       ],
       [
-        [
-          "siblings",
-          "sisters"
-        ],
-        [
-          "brothers",
-          "sisters"
-        ]
+        "his",
+        "hers"
       ],
       [
-        [
-          "actor",
-          "actress"
-        ],
-        [
-          "actor",
-          "actress"
-        ]
+        "themself",
+        "herself"
       ],
       [
-        [
-          "parent",
-          "mother"
-        ],
-        [
-          "father",
-          "mother"
-        ]
+        "himself",
+        "herself"
       ],
       [
-        [
-          "child",
-          "girl"
-        ],
-        [
-          "boy",
-          "girl"
-        ]
+        "partner",
+        "wife"
       ],
       [
-        [
-          "businessperson",
-          "businesswoman"
-        ],
-        [
-          "businessman",
-          "businesswoman"
-        ]
+        "husband",
+        "wife"
       ],
       [
-        [
-          "grandparent",
-          "grandmother"
-        ],
-        [
-          "grandfather",
-          "grandmother"
-        ]
+        "sibling",
+        "sister"
       ],
       [
-        [
-          "grandparent's",
-          "grandmother's"
-        ],
-        [
-          "grandfather's",
-          "grandmother's"
-        ]
+        "brother",
+        "sister"
       ],
       [
-        [
-          "person",
-          "woman"
-        ],
-        [
-          "man",
-          "woman"
-        ]
+        "siblings",
+        "sisters"
       ],
       [
-        [
-          "peoples",
-          "womans"
-        ],
-        [
-          "mans",
-          "womans"
-        ]
+        "brothers",
+        "sisters"
       ],
       [
-        [
-          "humankind",
-          "womankind"
-        ],
-        [
-          "mankind",
-          "womankind"
-        ]
+        "actor",
+        "actress"
+      ],
+      [
+        "actor",
+        "actress"
+      ],
+      [
+        "parent",
+        "mother"
+      ],
+      [
+        "father",
+        "mother"
+      ],
+      [
+        "child",
+        "girl"
+      ],
+      [
+        "boy",
+        "girl"
+      ],
+      [
+        "businessperson",
+        "businesswoman"
+      ],
+      [
+        "businessman",
+        "businesswoman"
+      ],
+      [
+        "grandparent",
+        "grandmother"
+      ],
+      [
+        "grandfather",
+        "grandmother"
+      ],
+      [
+        "grandparent's",
+        "grandmother's"
+      ],
+      [
+        "grandfather's",
+        "grandmother's"
+      ],
+      [
+        "person",
+        "woman"
+      ],
+      [
+        "man",
+        "woman"
+      ],
+      [
+        "peoples",
+        "womans"
+      ],
+      [
+        "mans",
+        "womans"
+      ],
+      [
+        "humankind",
+        "womankind"
+      ],
+      [
+        "mankind",
+        "womankind"
       ]
     ]
   }

@@ -36,19 +36,31 @@ const mappings = [
     },
 ];
 
+interface WordMap {
+    name: string,
+    wordMap: [string, string][]
+}
+
+
 const wordMap = mappings.map((mapping) => {
 
     const name = mapping.name;
     console.log(`${name}`);
 
     const wordMap = words.map((word) => {
-        const froms = mapping.from.map((from) => {
+        const froms: string[] = mapping.from.map((from) => {
             return word[from];
         })
-        const to = word[mapping.to];
+        const to: string = word[mapping.to];
 
-        return froms.map((from) => [from, to]);
-    });
+        const both: [string, string][] = froms.map((from) => {
+            return [from, to]
+        });
+        return both;
+    }).reduce((previous: [string, string][], current: [string, string][]) => {
+        previous.push(...current);
+        return previous;
+    },[]);
 
     return  {
         name,
@@ -57,6 +69,24 @@ const wordMap = mappings.map((mapping) => {
 });
 
 const genderWordMap = path.join(__dirname, "gendered-word-map.json");
+
+//function createTwiddle(map: {name})
+
+// {
+//     "name": "Neutralize",
+//     "rules": [
+//         {
+//             "replaceWords": [
+//                 ["he", "they"],
+//                 ["she", "they"]
+//             ]
+//         },
+//         {
+//             "highlightWords": [["they", "yellow"]]
+//         }
+//     ]
+// }
+
 
 writeFileJson(genderWordMap, wordMap);
 
