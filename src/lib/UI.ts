@@ -1,9 +1,6 @@
 class UserInterface {
-
     get twiddleOptions(): HTMLSelectElement {
-        return document.getElementById(
-            "twiddles"
-        ) as HTMLSelectElement;
+        return document.getElementById("twiddles") as HTMLSelectElement;
     }
 
     get selectedTwiddle(): string {
@@ -11,4 +8,4 @@ class UserInterface {
     }
 }
 
-export const UI = new UserInterface()
+export const UI = new UserInterface();

@@ -1,11 +1,13 @@
 // Create individual twiddles from the gender map
-import * as path from 'path'
-import {readFileJson, writeFileJson, 
+import * as path from "path";
+import {
+    readFileJson,
+    writeFileJson,
     //writeFileJson
 } from "@wandyezj/standard-node";
-import {Twiddle} from "../lib/twiddle/twiddleJson"
+import { Twiddle } from "../lib/twiddle/twiddleJson";
 
-console.log(__filename)
+console.log(__filename);
 const genderedWordsFile = path.join(__dirname, "gendered-words.json");
 
 const outputDirectory = path.join(__dirname, "twiddles");
@@ -25,10 +27,10 @@ const mappings = [
         name: "neutralize",
         from: ["masculine", "feminine"],
         to: "neutral",
-        color: "aquamarine"
+        color: "aquamarine",
     },
     {
-        name:"masculinize",
+        name: "masculinize",
         from: ["neutral", "feminine"],
         to: "masculine",
         color: "cyan",
@@ -42,42 +44,42 @@ const mappings = [
 ];
 
 interface WordMap {
-    name: string,
-    color: string,
-    wordMap: [string, string][],
-    words: string[],
+    name: string;
+    color: string;
+    wordMap: [string, string][];
+    words: string[];
 }
 
-
 const wordMap = mappings.map((mapping) => {
-
     const name = mapping.name;
     const color = mapping.color;
     console.log(`${name}`);
 
-    const wordMap = wordsDictionary.map((word) => {
-        const froms: string[] = mapping.from.map((from) => {
-            return word[from];
-        })
-        const to: string = word[mapping.to];
+    const wordMap = wordsDictionary
+        .map((word) => {
+            const froms: string[] = mapping.from.map((from) => {
+                return word[from];
+            });
+            const to: string = word[mapping.to];
 
-        const both: [string, string][] = froms.map((from) => {
-            return [from, to]
-        });
-        return both;
-    }).reduce((previous: [string, string][], current: [string, string][]) => {
-        previous.push(...current);
-        return previous;
-    },[]);
+            const both: [string, string][] = froms.map((from) => {
+                return [from, to];
+            });
+            return both;
+        })
+        .reduce((previous: [string, string][], current: [string, string][]) => {
+            previous.push(...current);
+            return previous;
+        }, []);
 
     const words: string[] = wordsDictionary.map((word) => word[mapping.to]);
 
-    return  {
+    return {
         name,
         color,
         wordMap,
         words,
-    }
+    };
 });
 
 const genderWordMap = path.join(__dirname, "gendered-word-map.json");
@@ -87,24 +89,27 @@ function createTwiddle(map: WordMap): Twiddle {
     const name = map.name;
     const replaceWords = map.wordMap;
     const color = map.color;
-    const highlightWords: [string, string][] = map.words.map((word) => [word, color]);
-    
+    const highlightWords: [string, string][] = map.words.map((word) => [
+        word,
+        color,
+    ]);
+
     return {
         name,
         rules: [
             {
-                replaceWords
+                replaceWords,
             },
             {
-                highlightWords
-            }
-        ]
-    }
+                highlightWords,
+            },
+        ],
+    };
 }
 
 wordMap.forEach((map) => {
     const twiddle = createTwiddle(map);
-    const outputFile = path.join(outputDirectory, `${map.name}.twiddle.json`)
+    const outputFile = path.join(outputDirectory, `${map.name}.twiddle.json`);
     writeFileJson(outputFile, twiddle);
 });
 
@@ -122,8 +127,3 @@ wordMap.forEach((map) => {
 //         }
 //     ]
 // }
-
-
-
-
-

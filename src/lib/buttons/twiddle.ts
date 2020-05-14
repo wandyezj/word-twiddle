@@ -3,7 +3,6 @@ import { UI } from "../UI";
 import { getTwiddleByName } from "../twiddle/getTwiddleByName";
 
 export async function twiddle() {
-
     const selected = UI.selectedTwiddle;
     const currentTwiddle = getTwiddleByName(selected);
 

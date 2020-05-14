@@ -12,9 +12,9 @@ Office.onReady((info) => {
 });
 
 const idMap: { [id: string]: () => Promise<void> } = {
-    run,
+    //run,
     reset,
-    twiddle,
+    "button-twiddle": twiddle,
 };
 
 function initialize() {
@@ -27,4 +27,3 @@ function initialize() {
         };
     }
 }
-
