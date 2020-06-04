@@ -10,3 +10,4 @@
 - Description and UI
 - will need to make sure that fetch is polyfilled? Or is this handled automatically by babel?
 - visible twiddle description
+- figure out deployment pipeline
