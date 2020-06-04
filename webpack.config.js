@@ -49,6 +49,14 @@ module.exports = async (env, options) => {
         {
           to: "taskpane.css",
           from: "./src/taskpane.css"
+        },
+        {
+          to:"manifest.xml",
+          from: "./manifest.xml"
+        },
+        {
+          to:"index.html",
+          from:"./index.html"
         }
       ])
     ],
