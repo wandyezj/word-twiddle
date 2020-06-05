@@ -9,6 +9,6 @@ export function getTwiddles(): Twiddle[] {
         neutralize as Twiddle,
         feminize as Twiddle,
         masculinize as Twiddle,
-        uwu as Twiddle,
+        //uwu as Twiddle,
     ];
 }
