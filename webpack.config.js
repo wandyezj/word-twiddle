@@ -78,6 +78,30 @@ module.exports = async (env, options) => {
           to:"assets/icon-300.png",
           from:"assets/icon-300.png"
         },
+        {
+          to:"assets/icon-80.png",
+          from:"assets/icon-80.png"
+        },
+        {
+          to:"assets/icon-128.png",
+          from:"assets/icon-128.png"
+        },
+        {
+          to:"assets/icon-300.png",
+          from:"assets/icon-300.png"
+        },
+        {
+          to:"statements/eula.html",
+          from:"statements/generated/eula.html"
+        },
+        {
+          to:"statements/privacy.html",
+          from:"statements/generated/privacy.html"
+        },
+        {
+          to:"statements/support.html",
+          from:"statements/generated/support.html"
+        },
       ])
     ],
     devServer: {
