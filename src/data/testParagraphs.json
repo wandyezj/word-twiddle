@@ -3,7 +3,7 @@
     { "paragraph": "She ate tasty ramen!", "comment": "" },
     {
         "paragraph": "She loved his beautiful pastry.",
-        "comment": "this sentence becomes delightfully ambiguous as to the meaning id adjusted"
+        "comment": "this sentence becomes delightfully ambiguous as to the meaning is adjusted"
     },
     { "paragraph": "The businessman closed the deal.", "comment": "" },
     {
@@ -12,7 +12,7 @@
     },
     {
         "paragraph": "Waffles are the ideal source of nutrition said the lady.",
-        "comment": ""
+        "comment": "Can become ambiguous if attempting to distinguish between people in the setting."
     },
     {
         "paragraph": "\"Are they now?!\" exclaimed my mother.",
@@ -20,7 +20,7 @@
     },
     {
         "paragraph": "Hmm... I think my wife knows better said my father.",
-        "comment": ""
+        "comment": "Introduces ambiguity when made genderless"
     },
     {
         "paragraph": "The young boy released the balloon and watched it soar into the air.",
