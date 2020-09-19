@@ -45,7 +45,7 @@ module.exports = async (env, options) => {
         template: "./src/taskpane.html",
         chunks: ["polyfill", "taskpane"]
       }),
-      new CopyWebpackPlugin([
+      new CopyWebpackPlugin({patterns:[
         {
           to: "taskpane.css",
           from: "./src/taskpane.css"
@@ -102,7 +102,7 @@ module.exports = async (env, options) => {
           to:"statements/support.html",
           from:"statements/generated/support.html"
         },
-      ])
+      ]})
     ],
     devServer: {
       headers: {

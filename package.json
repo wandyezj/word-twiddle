@@ -11,7 +11,7 @@
     "server": "webpack-dev-server --mode development",
     "prettier": "./node_modules/.bin/prettier --config .prettierrc.json --write src/**/*.ts",
     "generate-icon": ".\\assets\\generate.cmd",
-    "create-gender-twiddles":"./node_modules/.bin/ts-node ./src/data/create-gender-twiddles.ts"
+    "create-gender-twiddles": "./node_modules/.bin/ts-node ./src/data/create-gender-twiddles.ts"
   },
   "repository": {
     "type": "git",
@@ -34,7 +34,7 @@
     "@wandyezj/standard-node": "0.0.6",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
-    "copy-webpack-plugin": "^5.1.1",
+    "copy-webpack-plugin": "^6.1.1",
     "file-loader": "^4.2.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
@@ -48,6 +48,6 @@
     "typescript": "^3.8.3",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.8",
-    "webpack-dev-server": "^3.8.0"
+    "webpack-dev-server": "^3.11.0"
   }
 }
