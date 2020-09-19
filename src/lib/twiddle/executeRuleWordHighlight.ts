@@ -41,7 +41,6 @@ async function highlightWords(
         } else {
             // // Handle edge case where there is punctuation attached
             // Highlighting gets messed up when swaping between the two..
-
             // let textWithoutPunctuation = text;
             // const punctuation = [".", ",", ";", "!"];
             // const end = text[text.length -1];
@@ -49,7 +48,6 @@ async function highlightWords(
             // if (text.length > 0 && punctuation.includes(end)) {
             //     textWithoutPunctuation = text.slice(0, text.length - 1);
             // }
-
             // // console.log(textWithoutPunctuation);
             // const color = wordToColor.get(textWithoutPunctuation);
             // if (color) {

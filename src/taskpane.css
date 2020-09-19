@@ -26,30 +26,38 @@
 }
 
 
-
-
-#button-twiddle {
+.button {
     background-color: rgb(118, 212, 236);
     border: 0.02em solid black;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-family: "Segoe UI";
-    font-size: 1.5em;
 }
 
-#button-twiddle:hover {
+.button:hover {
     background-color: #4CAF50;
     color: white;
 }
 
-#button-twiddle:disabled {
+.button:disabled {
     background-color: #54c558;
     color: white;
-} 
+}
 
+.button:active {
+    background-color: #3e8e41;
+}
+
+#button-twiddle {
+    font-size: 1.5em;
+}
+
+#button-reset {
+    font-size: 1em;
+}
 
 
 /* Drop down */
@@ -70,4 +78,8 @@ z-index: 1;
 
 .dropdown:hover .dropdown-content {
 display: block;
+}
+
+li {
+    padding-top: 1em;
 }

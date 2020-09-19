@@ -13,7 +13,7 @@ Office.onReady((info) => {
 
 const idMap: { [id: string]: () => Promise<void> } = {
     //run,
-    reset,
+    "button-reset": reset,
     "button-twiddle": twiddle,
 };
 
